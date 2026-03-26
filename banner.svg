@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0e1a2e"/>
+    </linearGradient>
+    <linearGradient id="text-overlay" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="38%"  stop-color="#0d1117" stop-opacity="0.94"/>
+      <stop offset="58%"  stop-color="#0d1117" stop-opacity="0.3"/>
+      <stop offset="72%"  stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent-bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#CE412B"/>
+      <stop offset="50%"  stop-color="#5277C3"/>
+      <stop offset="100%" stop-color="#7F5AB6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Ambient star dots -->
+  <circle cx="55"   cy="120" r="1"   fill="#ffffff" opacity="0.25"/>
+  <circle cx="130"  cy="55"  r="1.5" fill="#ffffff" opacity="0.2"/>
+  <circle cx="200"  cy="175" r="1"   fill="#ffffff" opacity="0.18"/>
+  <circle cx="260"  cy="30"  r="1"   fill="#ffffff" opacity="0.25"/>
+  <circle cx="340"  cy="210" r="1.5" fill="#ffffff" opacity="0.18"/>
+  <circle cx="410"  cy="150" r="1"   fill="#ffffff" opacity="0.22"/>
+  <circle cx="445"  cy="290" r="1"   fill="#ffffff" opacity="0.18"/>
+  <circle cx="560"  cy="200" r="1.5" fill="#ffffff" opacity="0.22"/>
+  <circle cx="615"  cy="290" r="1"   fill="#ffffff" opacity="0.18"/>
+  <circle cx="660"  cy="160" r="1"   fill="#ffffff" opacity="0.2"/>
+  <circle cx="710"  cy="290" r="1.5" fill="#ffffff" opacity="0.18"/>
+  <circle cx="770"  cy="170" r="1"   fill="#ffffff" opacity="0.22"/>
+  <circle cx="840"  cy="30"  r="1"   fill="#ffffff" opacity="0.2"/>
+  <circle cx="895"  cy="290" r="1.5" fill="#ffffff" opacity="0.18"/>
+  <circle cx="960"  cy="180" r="1"   fill="#ffffff" opacity="0.22"/>
+  <circle cx="1010" cy="290" r="1"   fill="#ffffff" opacity="0.2"/>
+  <circle cx="1060" cy="90"  r="1.5" fill="#ffffff" opacity="0.18"/>
+  <circle cx="1120" cy="260" r="1"   fill="#ffffff" opacity="0.22"/>
+  <circle cx="1145" cy="180" r="1"   fill="#ffffff" opacity="0.2"/>
+  <circle cx="1185" cy="40"  r="1.5" fill="#ffffff" opacity="0.18"/>
+
+  <!-- Node glow halos (for r=5 nodes) -->
+  <circle cx="530"  cy="140" r="13" fill="#5277C3" opacity="0.12"/>
+  <circle cx="650"  cy="110" r="13" fill="#CE412B" opacity="0.12"/>
+  <circle cx="740"  cy="190" r="13" fill="#CE412B" opacity="0.12"/>
+  <circle cx="850"  cy="195" r="13" fill="#CE412B" opacity="0.12"/>
+  <circle cx="970"  cy="130" r="13" fill="#CE412B" opacity="0.12"/>
+  <circle cx="1070" cy="150" r="13" fill="#CE412B" opacity="0.12"/>
+  <circle cx="1160" cy="130" r="13" fill="#CE412B" opacity="0.12"/>
+
+  <!-- Connection lines -->
+  <line x1="460"  y1="50"  x2="530"  y2="140" stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="460"  y1="50"  x2="580"  y2="40"  stroke="#5277C3" stroke-width="1" opacity="0.3"/>
+  <line x1="480"  y1="270" x2="600"  y2="230" stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="480"  y1="270" x2="530"  y2="140" stroke="#CE412B" stroke-width="1" opacity="0.28"/>
+  <line x1="530"  y1="140" x2="650"  y2="110" stroke="#5277C3" stroke-width="1" opacity="0.35"/>
+  <line x1="530"  y1="140" x2="600"  y2="230" stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="580"  y1="40"  x2="720"  y2="60"  stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="580"  y1="40"  x2="650"  y2="110" stroke="#5277C3" stroke-width="1" opacity="0.32"/>
+  <line x1="600"  y1="230" x2="680"  y2="270" stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="600"  y1="230" x2="740"  y2="190" stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="650"  y1="110" x2="720"  y2="60"  stroke="#CE412B" stroke-width="1" opacity="0.32"/>
+  <line x1="650"  y1="110" x2="740"  y2="190" stroke="#5277C3" stroke-width="1" opacity="0.3"/>
+  <line x1="680"  y1="270" x2="790"  y2="280" stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="720"  y1="60"  x2="820"  y2="90"  stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="740"  y1="190" x2="790"  y2="280" stroke="#5277C3" stroke-width="1" opacity="0.3"/>
+  <line x1="740"  y1="190" x2="850"  y2="195" stroke="#7F5AB6" stroke-width="1" opacity="0.34"/>
+  <line x1="790"  y1="280" x2="920"  y2="260" stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="820"  y1="90"  x2="900"  y2="50"  stroke="#5277C3" stroke-width="1" opacity="0.3"/>
+  <line x1="820"  y1="90"  x2="850"  y2="195" stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="850"  y1="195" x2="920"  y2="260" stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="850"  y1="195" x2="970"  y2="130" stroke="#5277C3" stroke-width="1" opacity="0.34"/>
+  <line x1="900"  y1="50"  x2="1000" y2="60"  stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="900"  y1="50"  x2="970"  y2="130" stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="920"  y1="260" x2="1020" y2="240" stroke="#5277C3" stroke-width="1" opacity="0.3"/>
+  <line x1="970"  y1="130" x2="1000" y2="60"  stroke="#7F5AB6" stroke-width="1" opacity="0.34"/>
+  <line x1="970"  y1="130" x2="1070" y2="150" stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="1000" y1="60"  x2="1100" y2="40"  stroke="#5277C3" stroke-width="1" opacity="0.3"/>
+  <line x1="1020" y1="240" x2="1130" y2="270" stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="1070" y1="150" x2="1100" y2="40"  stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="1070" y1="150" x2="1160" y2="130" stroke="#5277C3" stroke-width="1" opacity="0.34"/>
+  <line x1="1070" y1="150" x2="1130" y2="270" stroke="#7F5AB6" stroke-width="1" opacity="0.3"/>
+  <line x1="1100" y1="40"  x2="1160" y2="130" stroke="#CE412B" stroke-width="1" opacity="0.3"/>
+  <line x1="1130" y1="270" x2="1180" y2="220" stroke="#5277C3" stroke-width="1" opacity="0.3"/>
+  <line x1="1160" y1="130" x2="1180" y2="220" stroke="#7F5AB6" stroke-width="1" opacity="0.34"/>
+  <!-- Fade-in connections bridging left stray nodes to right constellation -->
+  <line x1="300"  y1="80"  x2="460"  y2="50"  stroke="#5277C3" stroke-width="1" opacity="0.18"/>
+  <line x1="350"  y1="240" x2="480"  y2="270" stroke="#CE412B" stroke-width="1" opacity="0.18"/>
+
+  <!-- Left stray nodes (subtle) -->
+  <circle cx="80"  cy="40"  r="3" fill="#5277C3" opacity="0.45"/>
+  <circle cx="150" cy="250" r="3" fill="#CE412B" opacity="0.45"/>
+  <circle cx="300" cy="80"  r="4" fill="#7F5AB6" opacity="0.45"/>
+  <circle cx="350" cy="240" r="3" fill="#5277C3" opacity="0.45"/>
+
+  <!-- Right constellation nodes -->
+  <circle cx="460"  cy="50"  r="4" fill="#CE412B" opacity="0.9"/>
+  <circle cx="480"  cy="270" r="3" fill="#7F5AB6" opacity="0.9"/>
+  <circle cx="530"  cy="140" r="5" fill="#5277C3" opacity="0.9"/>
+  <circle cx="580"  cy="40"  r="3" fill="#CE412B" opacity="0.9"/>
+  <circle cx="600"  cy="230" r="4" fill="#7F5AB6" opacity="0.9"/>
+  <circle cx="650"  cy="110" r="5" fill="#CE412B" opacity="0.9"/>
+  <circle cx="680"  cy="270" r="3" fill="#5277C3" opacity="0.9"/>
+  <circle cx="720"  cy="60"  r="4" fill="#7F5AB6" opacity="0.9"/>
+  <circle cx="740"  cy="190" r="5" fill="#CE412B" opacity="0.9"/>
+  <circle cx="790"  cy="280" r="3" fill="#5277C3" opacity="0.9"/>
+  <circle cx="820"  cy="90"  r="4" fill="#7F5AB6" opacity="0.9"/>
+  <circle cx="850"  cy="195" r="5" fill="#CE412B" opacity="0.9"/>
+  <circle cx="900"  cy="50"  r="3" fill="#5277C3" opacity="0.9"/>
+  <circle cx="920"  cy="260" r="4" fill="#7F5AB6" opacity="0.9"/>
+  <circle cx="970"  cy="130" r="5" fill="#CE412B" opacity="0.9"/>
+  <circle cx="1000" cy="60"  r="3" fill="#5277C3" opacity="0.9"/>
+  <circle cx="1020" cy="240" r="4" fill="#7F5AB6" opacity="0.9"/>
+  <circle cx="1070" cy="150" r="5" fill="#CE412B" opacity="0.9"/>
+  <circle cx="1100" cy="40"  r="3" fill="#5277C3" opacity="0.9"/>
+  <circle cx="1130" cy="270" r="4" fill="#7F5AB6" opacity="0.9"/>
+  <circle cx="1160" cy="130" r="5" fill="#CE412B" opacity="0.9"/>
+  <circle cx="1180" cy="220" r="3" fill="#5277C3" opacity="0.9"/>
+
+  <!-- Text overlay: darkens left side so text is readable over any nodes -->
+  <rect width="1200" height="300" fill="url(#text-overlay)"/>
+
+  <!-- Accent bar -->
+  <rect x="62" y="108" width="3" height="92" fill="url(#accent-bar)" rx="1.5"/>
+
+  <!-- Name -->
+  <text x="76" y="152"
+        font-family="'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="62" font-weight="700" fill="#ffffff" letter-spacing="-1">Logan Barnett</text>
+
+  <!-- Tagline -->
+  <text x="78" y="190"
+        font-family="'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="17" fill="#8b949e" letter-spacing="0.4">Systems Programming · Local AI · Self-Managed Infrastructure</text>
+</svg>
