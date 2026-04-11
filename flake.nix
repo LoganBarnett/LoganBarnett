@@ -11,7 +11,8 @@
     packages = (pkgs: let
 
     in [
-
+      pkgs.just
+      pkgs.pandoc
     ]);
   in {
 

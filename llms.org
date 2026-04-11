@@ -1,0 +1,16 @@
+#+title: LLM Instructions
+#+language: en
+
+* Source of truth
+
+~README.org~ is the authoritative content for this repository's README.
+~README.md~ is a generated file for GitHub's profile README feature, which only
+supports markdown.
+
+Regenerate ~README.md~ via:
+
+#+begin_src sh
+just build
+#+end_src
+
+Do not edit ~README.md~ directly — edit ~README.org~ and rebuild.

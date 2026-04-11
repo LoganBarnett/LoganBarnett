@@ -23,6 +23,18 @@ I write tools that run local AI workloads and tools that keep a self-managed
 home network running — and the two concerns overlap more than you'd expect.
 Most of it is Rust, configured with Nix, edited in Emacs.
 
+* COMMENT Maintenance
+
+This org-mode file is the authoritative source for the README content.
+~README.md~ is generated for GitHub's profile README feature, which only supports
+markdown.  Do not edit ~README.md~ directly.
+
+Regenerate it via:
+
+#+begin_src sh
+just build
+#+end_src
+
 * Local ML Infrastructure
 
 Running inference at home across a mix of machines means dealing with routing,
