@@ -14,7 +14,6 @@
 <img src="https://img.shields.io/badge/Emacs-7F5AB6.svg?style=for-the-badge&logo=gnuemacs&logoColor=white" alt="Emacs"/>
 <br/>
 <img src="https://img.shields.io/github/followers/LoganBarnett.svg?style=for-the-badge&logo=github&logoColor=white&label=Followers" alt="Followers"/>
-<img src="https://img.shields.io/github/public-repos/LoganBarnett.svg?style=for-the-badge&logo=github&logoColor=white&label=Public%20Repos" alt="Public Repos"/>
 <a href="https://www.linkedin.com/in/logan-barnett-2556114/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </div>
 #+end_export
@@ -53,7 +52,7 @@ for any cloud services.
   it detects sustained external pressure. Keeps background inference jobs from
   fighting over the GPU when the machine is in active use.
 
-- [[https://github.com/LoganBarnett/metalps][metalps]] — ~ps~, but for the GPU. Shows per-process Metal utilization, VRAM
+- [[https://github.com/LoganBarnett/metalps][metalps]] @@html:<img src="https://raw.githubusercontent.com/LoganBarnett/metalps/main/assets/metalps-icon.svg" alt="metalps icon" width="20" height="20"/>@@ — ~ps~, but for the GPU. Shows per-process Metal utilization, VRAM
   footprint, and device-level statistics on macOS. The visibility layer that
   makes the other two possible to reason about.
 
@@ -67,13 +66,22 @@ and automated remediation — all declarative, all reproducible.
   network of machines. Every host is defined as code and deployed with a
   custom copy-closure tool. The foundation everything else builds on.
 
-- [[https://github.com/LoganBarnett/ldap-reconciler][ldap-reconciler]] — Declaratively reconciles an LDAP directory to a desired
-  state defined in JSON. Keeps identity consistent across services without
-  manual administration.
+- [[https://github.com/LoganBarnett/nix-hapi][nix-hapi]] @@html:<img src="https://raw.githubusercontent.com/LoganBarnett/nix-hapi/main/assets/nix-hapi-icon-01.svg" alt="nix-hapi icon" width="20" height="20"/>@@ — Declarative API management via Nix expressions. Describe the
+  desired state of external services as pure Nix, and nix-hapi reconciles live
+  state to match.  Stateless — no state file, always diffs against what's live.
+  - [[https://github.com/LoganBarnett/nix-hapi-provider-ldap][nix-hapi-provider-ldap]] — Reconciles LDAP directories (OpenLDAP, 389ds, etc.)
+    declaratively.
+  - [[https://github.com/LoganBarnett/nix-hapi-provider-porkbun][nix-hapi-provider-porkbun]] — Manages DNS records via the Porkbun API.
+  - [[https://github.com/LoganBarnett/nix-hapi-provider-aruba-cx][nix-hapi-provider-aruba-cx]] — Manages Aruba CX network switches.
 
 - [[https://github.com/LoganBarnett/dns-smart-block][dns-smart-block]] — Network-level domain blocking informed by machine
   learning classification. Sits at the DNS layer so it applies to every
   device on the network.
+
+- [[https://github.com/LoganBarnett/sonify-health][sonify-health]] @@html:<img src="https://raw.githubusercontent.com/LoganBarnett/sonify-health/main/assets/sonify-health-icon-01.png" alt="sonify-health icon" width="20" height="20"/>@@ — Turns infrastructure health into ambient sound.  Each
+  machine self-reports via percussive heartbeat boops and a continuous stress
+  drone — a Star Trek bridge feel that encodes real meaning into peripheral
+  awareness without requiring visual attention.
 
 - [[https://github.com/LoganBarnett/sytter][sytter]] — IFTTT for a host. Watch for a runaway process and kill it;
   trigger a script when a USB device is plugged in; turn off Bluetooth when
