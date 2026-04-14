@@ -40,7 +40,7 @@ Running inference at home across a mix of machines means dealing with routing,
 resource contention, and visibility. This stack handles that without reaching
 for any cloud services.
 
-- [[https://github.com/LoganBarnett/garage-queue][garage-queue]] — A capability-aware work queue. Producers submit payloads;
+- [[https://github.com/LoganBarnett/garage-queue][garage-queue]] @@html:<img src="https://raw.githubusercontent.com/LoganBarnett/garage-queue/main/assets/garage-queue-icon-03.svg" alt="garage-queue icon" width="20" height="20"/>@@ — A capability-aware work queue. Producers submit payloads;
   the queue routes each item to a worker that advertises the right hardware
   and software capabilities to handle it. The queue itself has no knowledge
   of any particular workload — that lives entirely in configuration. Can be
@@ -48,7 +48,7 @@ for any cloud services.
   VRAM and the right models loaded. This is the central dispatcher for the
   whole stack.
 
-- [[https://github.com/LoganBarnett/proc-siding][proc-siding]] — Monitors GPU utilization and pauses a watched workload when
+- [[https://github.com/LoganBarnett/proc-siding][proc-siding]] @@html:<img src="https://raw.githubusercontent.com/LoganBarnett/proc-siding/main/assets/proc-siding-icon-01.svg" alt="proc-siding icon" width="20" height="20"/>@@ — Monitors GPU utilization and pauses a watched workload when
   it detects sustained external pressure. Keeps background inference jobs from
   fighting over the GPU when the machine is in active use.
 

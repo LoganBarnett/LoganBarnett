@@ -28,8 +28,9 @@ Running inference at home across a mix of machines means dealing with
 routing, resource contention, and visibility. This stack handles that
 without reaching for any cloud services.
 
-- [garage-queue](https://github.com/LoganBarnett/garage-queue) — A
-  capability-aware work queue. Producers submit payloads; the queue
+- [garage-queue](https://github.com/LoganBarnett/garage-queue)
+  <img src="https://raw.githubusercontent.com/LoganBarnett/garage-queue/main/assets/garage-queue-icon-03.svg" alt="garage-queue icon" width="20" height="20"/>
+  — A capability-aware work queue. Producers submit payloads; the queue
   routes each item to a worker that advertises the right hardware and
   software capabilities to handle it. The queue itself has no knowledge
   of any particular workload — that lives entirely in configuration. Can
@@ -37,10 +38,11 @@ without reaching for any cloud services.
   sufficient VRAM and the right models loaded. This is the central
   dispatcher for the whole stack.
 
-- [proc-siding](https://github.com/LoganBarnett/proc-siding) — Monitors
-  GPU utilization and pauses a watched workload when it detects
-  sustained external pressure. Keeps background inference jobs from
-  fighting over the GPU when the machine is in active use.
+- [proc-siding](https://github.com/LoganBarnett/proc-siding)
+  <img src="https://raw.githubusercontent.com/LoganBarnett/proc-siding/main/assets/proc-siding-icon-01.svg" alt="proc-siding icon" width="20" height="20"/>
+  — Monitors GPU utilization and pauses a watched workload when it
+  detects sustained external pressure. Keeps background inference jobs
+  from fighting over the GPU when the machine is in active use.
 
 - [metalps](https://github.com/LoganBarnett/metalps)
   <img src="https://raw.githubusercontent.com/LoganBarnett/metalps/main/assets/metalps-icon.svg" alt="metalps icon" width="20" height="20"/>
