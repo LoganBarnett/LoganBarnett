@@ -57,10 +57,10 @@ owning and operating the full stack of a small network: identity, DNS,
 configuration, and automated remediation — all declarative, all
 reproducible.
 
-- [dotfiles](https://github.com/LoganBarnett/dotfiles) — Despite the
-  name, this is a Nix configuration for an entire network of machines.
-  Every host is defined as code and deployed with a custom copy-closure
-  tool. The foundation everything else builds on.
+- [nix-config](https://github.com/LoganBarnett/nix-config) — Nix
+  configuration for an entire network of machines. Every host is defined
+  as code and deployed with a custom copy-closure tool. The foundation
+  everything else builds on.
 
 - [nix-hapi](https://github.com/LoganBarnett/nix-hapi)
   <img src="https://raw.githubusercontent.com/LoganBarnett/nix-hapi/main/assets/nix-hapi-icon-01.svg" alt="nix-hapi icon" width="20" height="20"/>

@@ -62,9 +62,9 @@ This is less "personal cloud" (file sync, productivity apps) and more owning
 and operating the full stack of a small network: identity, DNS, configuration,
 and automated remediation — all declarative, all reproducible.
 
-- [[https://github.com/LoganBarnett/dotfiles][dotfiles]] — Despite the name, this is a Nix configuration for an entire
-  network of machines. Every host is defined as code and deployed with a
-  custom copy-closure tool. The foundation everything else builds on.
+- [[https://github.com/LoganBarnett/nix-config][nix-config]] — Nix configuration for an entire network of machines.
+  Every host is defined as code and deployed with a custom copy-closure
+  tool. The foundation everything else builds on.
 
 - [[https://github.com/LoganBarnett/nix-hapi][nix-hapi]] @@html:<img src="https://raw.githubusercontent.com/LoganBarnett/nix-hapi/main/assets/nix-hapi-icon-01.svg" alt="nix-hapi icon" width="20" height="20"/>@@ — Declarative API management via Nix expressions. Describe the
   desired state of external services as pure Nix, and nix-hapi reconciles live
